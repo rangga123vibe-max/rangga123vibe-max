@@ -1,5 +1,4 @@
 name: generate profile assets
-
 on:
   schedule:
     - cron: "0 */24 * * *"
@@ -29,6 +28,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   metrics:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -36,7 +37,8 @@ jobs:
           filename: metrics.plugin.anilist.svg
           token: NOT_NEEDED
           base: ""
+          theme: dark
           plugin_anilist: yes
-          plugin_anilist_user: USERNAME_ANILIST_KAMU
-          plugin_anilist_medias: anime, manga
-          plugin_anilist_sections: favorites, watching, reading, characters
+          plugin_anilist_user: GANTI_INI_USERNAME_ANILIST_KAMU
+          plugin_anilist_medias: anime,manga
+          plugin_anilist_sections: favorites,watching,reading,characters
