@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/rangga123vibe-max/rangga123vibe-max/main/banner2.svg" width="100%">
+<img src="https://raw.githubusercontent.com/rangga123vibe-max/rangga123vibe-max/main/banner7.svg" width="100%">
 
 # Mahatma Arangga
 ### 💻 Software Engineer · 🌐 Web Developer
