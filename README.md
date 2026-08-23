@@ -28,25 +28,27 @@ Software Engineer yang fokus di Web Development. Saat ini sedang memperdalam Rea
 ---
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=rangga123vibe-max&show_icons=true&hide_border=true&bg_color=0B0B12&title_color=F472B6&text_color=E5E7EB&icon_color=A78BFA" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rangga123vibe-max&hide_border=true&bg_color=0B0B12&title_color=F472B6&text_color=E5E7EB&layout=compact" height="165" />
-
+<img src="https://raw.githubusercontent.com/rangga123vibe-max/rangga123vibe-max/main/title-contribution.svg" width="100%">
 </div>
 
----
+<br/>
 
-### 🎮 My Contribution Graph
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rangga123vibe-max/rangga123vibe-max/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rangga123vibe-max/rangga123vibe-max/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/rangga123vibe-max/rangga123vibe-max/output/pacman-contribution-graph.svg">
 </picture>
 
-### 🍥 My AniList
+<br/>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/rangga123vibe-max/rangga123vibe-max/main/title-anilist.svg" width="100%">
+</div>
+
+<br/>
 
 <details>
-<summary>📺 For anime watchers</summary>
+<summary><b>For Anime Watchers</b></summary>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rangga123vibe-max/rangga123vibe-max/main/metrics.plugin.anilist.dark.svg">
@@ -55,7 +57,7 @@ Software Engineer yang fokus di Web Development. Saat ini sedang memperdalam Rea
 
 </details>
 
-#### 💖 Favorites characters
+**Favorite Characters**
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rangga123vibe-max/rangga123vibe-max/main/metrics.plugin.anilist.characters.dark.svg">
   <img alt="anilist characters" src="https://raw.githubusercontent.com/rangga123vibe-max/rangga123vibe-max/main/metrics.plugin.anilist.characters.svg">
