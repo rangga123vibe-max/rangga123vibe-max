@@ -28,7 +28,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    metrics:
+  metrics:
     permissions:
       contents: write
     runs-on: ubuntu-latest
