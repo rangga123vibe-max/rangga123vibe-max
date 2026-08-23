@@ -4,12 +4,12 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/HTML5-1A1A1A?style=flat-square&logo=html5&logoColor=C1272D" />
-<img src="https://img.shields.io/badge/CSS3-1A1A1A?style=flat-square&logo=css3&logoColor=C1272D" />
-<img src="https://img.shields.io/badge/JavaScript-1A1A1A?style=flat-square&logo=javascript&logoColor=C1272D" />
-<img src="https://img.shields.io/badge/TypeScript-1A1A1A?style=flat-square&logo=typescript&logoColor=C1272D" />
-<img src="https://img.shields.io/badge/React-1A1A1A?style=flat-square&logo=react&logoColor=C1272D" />
-<img src="https://img.shields.io/badge/Node.js-1A1A1A?style=flat-square&logo=nodedotjs&logoColor=C1272D" />
+<img src="https://img.shields.io/badge/HTML5-0B0B12?style=flat-square&logo=html5&logoColor=F9A8D4" />
+<img src="https://img.shields.io/badge/CSS3-0B0B12?style=flat-square&logo=css3&logoColor=F9A8D4" />
+<img src="https://img.shields.io/badge/JavaScript-0B0B12?style=flat-square&logo=javascript&logoColor=A78BFA" />
+<img src="https://img.shields.io/badge/TypeScript-0B0B12?style=flat-square&logo=typescript&logoColor=A78BFA" />
+<img src="https://img.shields.io/badge/React-0B0B12?style=flat-square&logo=react&logoColor=F472B6" />
+<img src="https://img.shields.io/badge/Node.js-0B0B12?style=flat-square&logo=nodedotjs&logoColor=F472B6" />
 
 </div>
 
@@ -24,6 +24,15 @@ Software Engineer yang fokus di Web Development. Saat ini sedang memperdalam Rea
 **Sedang dikerjakan:** Apotek Bima Farma
 
 <br/>
+
+---
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=rangga123vibe-max&show_icons=true&hide_border=true&bg_color=0B0B12&title_color=F472B6&text_color=E5E7EB&icon_color=A78BFA" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rangga123vibe-max&hide_border=true&bg_color=0B0B12&title_color=F472B6&text_color=E5E7EB&layout=compact" height="165" />
+
+</div>
 
 ---
 
@@ -51,3 +60,9 @@ Software Engineer yang fokus di Web Development. Saat ini sedang memperdalam Rea
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rangga123vibe-max/rangga123vibe-max/main/metrics.plugin.anilist.characters.dark.svg">
   <img alt="anilist characters" src="https://raw.githubusercontent.com/rangga123vibe-max/rangga123vibe-max/main/metrics.plugin.anilist.characters.svg">
 </picture>
+
+<br/>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/rangga123vibe-max/rangga123vibe-max/main/footer2.svg" width="100%">
+</div>
