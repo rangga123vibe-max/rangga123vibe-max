@@ -1,0 +1,184 @@
+<svg width="900" height="320" viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      text { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    </style>
+    <clipPath id="card">
+      <rect width="900" height="320" rx="20"/>
+    </clipPath>
+    <filter id="soft" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <radialGradient id="corner" cx="10%" cy="85%" r="65%">
+      <stop offset="0%" stop-color="#F472B6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#F472B6" stop-opacity="0"/>
+    </radialGradient>
+
+    <g id="pA">
+      <g fill="#F9A8D4">
+        <path d="M0,0 C-4,-3 -4,-9 0,-13 C4,-9 4,-3 0,0 Z"/>
+        <path d="M0,0 C-4,-3 -4,-9 0,-13 C4,-9 4,-3 0,0 Z" transform="rotate(72)"/>
+        <path d="M0,0 C-4,-3 -4,-9 0,-13 C4,-9 4,-3 0,0 Z" transform="rotate(144)"/>
+        <path d="M0,0 C-4,-3 -4,-9 0,-13 C4,-9 4,-3 0,0 Z" transform="rotate(216)"/>
+        <path d="M0,0 C-4,-3 -4,-9 0,-13 C4,-9 4,-3 0,0 Z" transform="rotate(288)"/>
+      </g>
+      <circle r="1.8" fill="#FDE9C8"/>
+    </g>
+    <g id="pB">
+      <g fill="#FBCFE8">
+        <path d="M0,0 C-4,-3 -4,-9 0,-13 C4,-9 4,-3 0,0 Z"/>
+        <path d="M0,0 C-4,-3 -4,-9 0,-13 C4,-9 4,-3 0,0 Z" transform="rotate(72)"/>
+        <path d="M0,0 C-4,-3 -4,-9 0,-13 C4,-9 4,-3 0,0 Z" transform="rotate(144)"/>
+        <path d="M0,0 C-4,-3 -4,-9 0,-13 C4,-9 4,-3 0,0 Z" transform="rotate(216)"/>
+        <path d="M0,0 C-4,-3 -4,-9 0,-13 C4,-9 4,-3 0,0 Z" transform="rotate(288)"/>
+      </g>
+      <circle r="1.8" fill="#FDE9C8"/>
+    </g>
+    <g id="pC">
+      <g fill="#F472B6">
+        <path d="M0,0 C-4,-3 -4,-9 0,-13 C4,-9 4,-3 0,0 Z"/>
+        <path d="M0,0 C-4,-3 -4,-9 0,-13 C4,-9 4,-3 0,0 Z" transform="rotate(72)"/>
+        <path d="M0,0 C-4,-3 -4,-9 0,-13 C4,-9 4,-3 0,0 Z" transform="rotate(144)"/>
+        <path d="M0,0 C-4,-3 -4,-9 0,-13 C4,-9 4,-3 0,0 Z" transform="rotate(216)"/>
+        <path d="M0,0 C-4,-3 -4,-9 0,-13 C4,-9 4,-3 0,0 Z" transform="rotate(288)"/>
+      </g>
+      <circle r="1.8" fill="#FDE9C8"/>
+    </g>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="900" height="320" fill="#0A0A0C"/>
+    <rect width="900" height="320" fill="url(#corner)"/>
+
+    <!-- crescent moon -->
+    <circle cx="830" cy="55" r="60" fill="#FDF2E3" opacity="0.12" filter="url(#soft)"/>
+    <circle cx="830" cy="55" r="30" fill="#FDF2E3"/>
+    <circle cx="818" cy="44" r="26" fill="#0A0A0C"/>
+    <g fill="#FDF2E3">
+      <circle cx="700" cy="30" r="1.4" opacity="0.6"/>
+      <circle cx="740" cy="70" r="1.1" opacity="0.5"/>
+      <circle cx="660" cy="55" r="1.6" opacity="0.5"/>
+      <circle cx="780" cy="20" r="1.2" opacity="0.6"/>
+    </g>
+
+    <!-- branches -->
+    <g stroke="#161018" fill="none" stroke-linecap="round">
+      <path d="M -10,320 C 10,265 15,235 42,205" stroke-width="10"/>
+      <path d="M 42,205 C 58,175 26,145 96,110" stroke-width="6.5"/>
+      <path d="M 96,110 C 152,90 232,95 348,108" stroke-width="3.8"/>
+      <path d="M 66,158 C 56,120 60,90 60,60" stroke-width="3"/>
+      <path d="M 96,110 C 122,120 138,130 152,140" stroke-width="3"/>
+    </g>
+
+    <!-- ambient glow behind clusters -->
+    <g filter="url(#soft)" opacity="0.5">
+      <circle cx="355" cy="105" r="42" fill="#F472B6"/>
+      <circle cx="60" cy="60" r="30" fill="#F9A8D4"/>
+      <circle cx="150" cy="138" r="26" fill="#FBCFE8"/>
+      <circle cx="35" cy="228" r="24" fill="#F472B6"/>
+    </g>
+
+    <!-- cluster: near name (overlaps text, drawn behind text since text comes later) -->
+    <use href="#pA" transform="translate(340,98) scale(1.35)"/>
+    <use href="#pB" transform="translate(365,86) scale(1.1) rotate(20)"/>
+    <use href="#pC" transform="translate(325,116) scale(1.15) rotate(-15)"/>
+    <use href="#pA" transform="translate(352,122) scale(0.9) rotate(40)"/>
+    <use href="#pB" transform="translate(382,100) scale(1.0) rotate(-25)"/>
+    <use href="#pC" transform="translate(300,102) scale(0.8) rotate(10)"/>
+
+    <!-- along-branch fillers -->
+    <use href="#pB" transform="translate(200,98) scale(0.7) rotate(15)"/>
+    <use href="#pA" transform="translate(260,91) scale(0.6) rotate(-20)"/>
+    <use href="#pC" transform="translate(120,100) scale(0.65) rotate(30)"/>
+
+    <!-- cluster 2 -->
+    <use href="#pB" transform="translate(150,138) scale(1.15)"/>
+    <use href="#pA" transform="translate(170,122) scale(0.95) rotate(25)"/>
+    <use href="#pC" transform="translate(132,155) scale(0.85) rotate(-10)"/>
+    <use href="#pA" transform="translate(160,108) scale(0.8) rotate(15)"/>
+
+    <!-- cluster 3 upper -->
+    <use href="#pA" transform="translate(60,60) scale(1.1)"/>
+    <use href="#pB" transform="translate(78,44) scale(0.9) rotate(20)"/>
+    <use href="#pC" transform="translate(44,76) scale(0.95) rotate(-20)"/>
+    <use href="#pA" transform="translate(85,66) scale(0.75) rotate(35)"/>
+
+    <!-- cluster 4 base -->
+    <use href="#pB" transform="translate(35,228) scale(0.95)"/>
+    <use href="#pA" transform="translate(52,242) scale(0.8) rotate(20)"/>
+    <use href="#pC" transform="translate(20,242) scale(0.75) rotate(-15)"/>
+
+    <!-- falling petals -->
+    <g transform="translate(220,-20)">
+      <animateTransform attributeName="transform" type="translate" values="220,-20; 250,90; 200,190; 240,290; 220,380" dur="9s" repeatCount="indefinite"/>
+      <g><animateTransform attributeName="transform" type="rotate" values="0;360" dur="3s" repeatCount="indefinite"/><use href="#pA" transform="scale(0.55)"/></g>
+    </g>
+    <g transform="translate(420,-40)">
+      <animateTransform attributeName="transform" type="translate" values="420,-40; 390,70; 440,170; 395,270; 420,370" dur="11s" begin="1.5s" repeatCount="indefinite"/>
+      <g><animateTransform attributeName="transform" type="rotate" values="0;-360" dur="4s" repeatCount="indefinite"/><use href="#pB" transform="scale(0.45)"/></g>
+    </g>
+    <g transform="translate(560,-30)">
+      <animateTransform attributeName="transform" type="translate" values="560,-30; 590,80; 540,180; 580,280; 560,380" dur="10s" begin="3s" repeatCount="indefinite"/>
+      <g><animateTransform attributeName="transform" type="rotate" values="0;360" dur="3.5s" repeatCount="indefinite"/><use href="#pC" transform="scale(0.5)"/></g>
+    </g>
+    <g transform="translate(700,-50)">
+      <animateTransform attributeName="transform" type="translate" values="700,-50; 670,60; 720,160; 675,260; 700,360" dur="12s" begin="0.5s" repeatCount="indefinite"/>
+      <g><animateTransform attributeName="transform" type="rotate" values="0;-360" dur="4.5s" repeatCount="indefinite"/><use href="#pA" transform="scale(0.5)"/></g>
+    </g>
+    <g transform="translate(820,-25)">
+      <animateTransform attributeName="transform" type="translate" values="820,-25; 850,85; 800,185; 840,285; 820,385" dur="9.5s" begin="2.2s" repeatCount="indefinite"/>
+      <g><animateTransform attributeName="transform" type="rotate" values="0;360" dur="3.2s" repeatCount="indefinite"/><use href="#pB" transform="scale(0.45)"/></g>
+    </g>
+    <g transform="translate(500,-60)">
+      <animateTransform attributeName="transform" type="translate" values="500,-60; 470,50; 520,150; 475,250; 500,350" dur="13s" begin="4s" repeatCount="indefinite"/>
+      <g><animateTransform attributeName="transform" type="rotate" values="0;-360" dur="5s" repeatCount="indefinite"/><use href="#pC" transform="scale(0.4)"/></g>
+    </g>
+  </g>
+
+  <rect x="0.5" y="0.5" width="899" height="319" rx="20" fill="none" stroke="#F9A8D4" stroke-opacity="0.15"/>
+
+  <!-- name, centered, drawn after tree so blossoms sit behind letters -->
+  <text x="450" y="140" font-size="44" font-weight="300" fill="#FAFAFA" letter-spacing="3" text-anchor="middle">Mahatma Arangga</text>
+  <text x="450" y="172" font-size="15" fill="#F9A8D4" letter-spacing="4" class="mono" text-anchor="middle">SOFTWARE ENGINEER · WEB DEVELOPER</text>
+
+  <!-- seal stamp -->
+  <g transform="translate(618,100) rotate(-8)">
+    <rect x="-18" y="-18" width="36" height="36" rx="5" fill="#B91C1C"/>
+    <text x="0" y="7" font-size="18" font-weight="700" fill="#FDF2F8" text-anchor="middle">M</text>
+  </g>
+
+  <!-- tech chips, centered grid -->
+  <g font-size="12" fill="#F5F5F5" text-anchor="middle">
+    <g transform="translate(224,214)">
+      <rect width="140" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.05" stroke="#F9A8D4" stroke-opacity="0.3"/>
+      <circle cx="22" cy="17" r="4" fill="#F9A8D4"/>
+      <text x="80" y="21">HTML5</text>
+    </g>
+    <g transform="translate(380,214)">
+      <rect width="140" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.05" stroke="#F9A8D4" stroke-opacity="0.3"/>
+      <circle cx="22" cy="17" r="4" fill="#F472B6"/>
+      <text x="80" y="21">CSS3</text>
+    </g>
+    <g transform="translate(536,214)">
+      <rect width="140" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.05" stroke="#F9A8D4" stroke-opacity="0.3"/>
+      <circle cx="22" cy="17" r="4" fill="#FBCFE8"/>
+      <text x="80" y="21">JAVASCRIPT</text>
+    </g>
+    <g transform="translate(224,258)">
+      <rect width="140" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.05" stroke="#F9A8D4" stroke-opacity="0.3"/>
+      <circle cx="22" cy="17" r="4" fill="#F9A8D4"/>
+      <text x="80" y="21">REACT</text>
+    </g>
+    <g transform="translate(380,258)">
+      <rect width="140" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.05" stroke="#F9A8D4" stroke-opacity="0.3"/>
+      <circle cx="22" cy="17" r="4" fill="#F472B6"/>
+      <text x="80" y="21">NODE.JS</text>
+    </g>
+    <g transform="translate(536,258)">
+      <rect width="140" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.05" stroke="#F9A8D4" stroke-opacity="0.3"/>
+      <circle cx="22" cy="17" r="4" fill="#FBCFE8"/>
+      <text x="80" y="21">TYPESCRIPT</text>
+    </g>
+  </g>
+</svg>
