@@ -41,7 +41,7 @@
 ---
 
 ### 🚧 Currently Building
-- 🔨 (isi project yang lagi kamu kerjain)
+- 🔨 (Apotek Bima Farma)
 
 ---
 
