@@ -8,7 +8,7 @@ on:
       - main
 
 jobs:
-    pacman:
+  pacman:
     permissions:
       contents: write
     runs-on: ubuntu-latest
