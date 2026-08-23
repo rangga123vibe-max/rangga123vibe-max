@@ -37,8 +37,17 @@ jobs:
           filename: metrics.plugin.anilist.svg
           token: NOT_NEEDED
           base: ""
+          plugin_anilist: yes
+          plugin_anilist_user: rangga123konz
+          plugin_anilist_medias: anime,manga
+          plugin_anilist_sections: favorites,watching,reading,characters
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.anilist.dark.svg
+          token: NOT_NEEDED
+          base: ""
           theme: dark
           plugin_anilist: yes
-          plugin_anilist_user: GANTI_INI_USERNAME_ANILIST_KAMU
+          plugin_anilist_user: rangga123konz
           plugin_anilist_medias: anime,manga
           plugin_anilist_sections: favorites,watching,reading,characters
