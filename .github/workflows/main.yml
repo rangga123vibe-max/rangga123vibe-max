@@ -28,11 +28,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  metrics:
+    metrics:
     permissions:
       contents: write
     runs-on: ubuntu-latest
     steps:
+      # Anime watchers
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.anilist.svg
@@ -40,8 +41,9 @@ jobs:
           base: ""
           plugin_anilist: yes
           plugin_anilist_user: rangga123konz
-          plugin_anilist_medias: anime,manga
-          plugin_anilist_sections: favorites,watching,reading,characters
+          plugin_anilist_medias: anime
+          plugin_anilist_sections: favorites,watching
+          plugin_anilist_limit: 4
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.anilist.dark.svg
@@ -50,5 +52,50 @@ jobs:
           theme: dark
           plugin_anilist: yes
           plugin_anilist_user: rangga123konz
-          plugin_anilist_medias: anime,manga
-          plugin_anilist_sections: favorites,watching,reading,characters
+          plugin_anilist_medias: anime
+          plugin_anilist_sections: favorites,watching
+          plugin_anilist_limit: 4
+
+      # Manga readers
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.anilist.manga.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_anilist: yes
+          plugin_anilist_user: rangga123konz
+          plugin_anilist_medias: manga
+          plugin_anilist_sections: favorites,reading
+          plugin_anilist_limit: 4
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.anilist.manga.dark.svg
+          token: NOT_NEEDED
+          base: ""
+          theme: dark
+          plugin_anilist: yes
+          plugin_anilist_user: rangga123konz
+          plugin_anilist_medias: manga
+          plugin_anilist_sections: favorites,reading
+          plugin_anilist_limit: 4
+
+      # Favorite characters
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.anilist.characters.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_anilist: yes
+          plugin_anilist_user: rangga123konz
+          plugin_anilist_sections: characters
+          plugin_anilist_limit_characters: 22
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.anilist.characters.dark.svg
+          token: NOT_NEEDED
+          base: ""
+          theme: dark
+          plugin_anilist: yes
+          plugin_anilist_user: rangga123konz
+          plugin_anilist_sections: characters
+          plugin_anilist_limit_characters: 22
