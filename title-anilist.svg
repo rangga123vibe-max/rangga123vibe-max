@@ -1,0 +1,18 @@
+<svg width="900" height="52" viewBox="0 0 900 52" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="txt2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F9A8D4"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="line2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F9A8D4" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#A78BFA" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#F9A8D4" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="52" rx="14" fill="#0B0B12"/>
+  <line x1="40" y1="46" x2="860" y2="46" stroke="url(#line2)" stroke-width="1"/>
+  <circle cx="380" cy="26" r="2" fill="#F9A8D4"/>
+  <circle cx="520" cy="26" r="2" fill="#A78BFA"/>
+  <text x="450" y="32" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="7" text-anchor="middle" fill="url(#txt2)">MY ANILIST</text>
+</svg>
