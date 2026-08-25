@@ -19,7 +19,7 @@
 
 <table>
 <tr>
-<td width="55%" valign="top">
+<td width="60%" valign="middle">
 
 **Class** → Software Engineer / Web Developer
 **Origin** → Indonesia 🇮🇩
@@ -31,8 +31,8 @@ Software Engineer yang fokus di Web Development. Saat ini sedang memperdalam Rea
 **Sedang dikerjakan:** Apotek Bima Farma
 
 </td>
-<td width="45%">
-<img src="https://media1.tenor.com/m/NaGZHARjO60AAAAC/recordofragnarok-adam.gif" width="100%">
+<td width="40%" align="center">
+<img src="https://media1.tenor.com/m/NaGZHARjO60AAAAC/recordofragnarok-adam.gifLINK_GIF_KAMU" width="180">
 </td>
 </tr>
 </table>
