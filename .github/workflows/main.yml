@@ -55,7 +55,6 @@ jobs:
           plugin_anilist_medias: anime
           plugin_anilist_sections: favorites,watching
           plugin_anilist_limit: 4
-
       # Manga readers
       - uses: lowlighter/metrics@latest
         with:
@@ -78,7 +77,6 @@ jobs:
           plugin_anilist_medias: manga
           plugin_anilist_sections: favorites,reading
           plugin_anilist_limit: 4
-
       # Favorite characters
       - uses: lowlighter/metrics@latest
         with:
@@ -99,3 +97,16 @@ jobs:
           plugin_anilist_user: rangga123konz
           plugin_anilist_sections: characters
           plugin_anilist_limit_characters: 22
+
+  streak:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate streak stats
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=rangga123vibe-max&theme=highcontrast&background=0B0B12&ring=F472B6&fire=A78BFA&currStreakLabel=F9A8D4&sideLabels=E5E7EB&currStreakNum=FFFFFF&sideNums=FFFFFF
+          path: streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
