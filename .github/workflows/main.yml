@@ -110,3 +110,10 @@ jobs:
           options: user=rangga123vibe-max&theme=highcontrast&background=0B0B12&ring=F472B6&fire=A78BFA&currStreakLabel=F9A8D4&sideLabels=E5E7EB&currStreakNum=FFFFFF&sideNums=FFFFFF
           path: streak.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit streak stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add streak.svg
+          git commit -m "Update streak stats" || exit 0
+          git push
