@@ -4,6 +4,8 @@
 
 <br/>
 
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=24&pause=1000&color=F472B6&background=0B0B1200&center=true&vCenter=true&width=600&lines=Backend+Developer;Full-Stack+Apprentice;Software+Engineer;Web+Developer)](https://git.io/typing-svg)
+
 <img src="https://img.shields.io/badge/HTML5-0B0B12?style=flat-square&logo=html5&logoColor=F9A8D4" />
 <img src="https://img.shields.io/badge/CSS3-0B0B12?style=flat-square&logo=css3&logoColor=F9A8D4" />
 <img src="https://img.shields.io/badge/JavaScript-0B0B12?style=flat-square&logo=javascript&logoColor=A78BFA" />
@@ -15,13 +17,33 @@
 
 <br/>
 
+<table>
+<tr>
+<td width="55%" valign="top">
+
+**Class** → Software Engineer / Web Developer
+**Origin** → Indonesia 🇮🇩
+
 Software Engineer yang fokus di Web Development. Saat ini sedang memperdalam React dan ekosistem JavaScript modern, sambil terus eksplor teknologi baru di sela-sela project.
 
 **Hubungi aku:** [LinkedIn](#) · [Email](#) · [Portfolio](#)
 
+**Sedang dikerjakan:** Apotek Bima Farma
+
+</td>
+<td width="45%">
+<img src="https://media1.tenor.com/m/NaGZHARjO60AAAAC/recordofragnarok-adam.gif" width="100%">
+</td>
+</tr>
+</table>
+
 <br/>
 
-**Sedang dikerjakan:** Apotek Bima Farma
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/rangga123vibe-max/rangga123vibe-max/main/streak.svg" width="100%">
+
+</div>
 
 <br/>
 
